@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-size: 30px;
 }
 .welcome {
     padding: 20px;
@@ -15,14 +16,14 @@
 }
 .title {
     color: #47A99C;
-    font-size: 30px;
+    font-size: 35px;
 }
 .welcome-infos {
     margin-top: 10px;
 }
 .green-text {
     color: #BFDF32 !important;
-    font-size: 20px;
+    font-size: 30px !important;
     font-weight: 700 !important;
     margin-bottom: 10px;
 }
@@ -30,6 +31,7 @@
 .text {
     color: #CDCDCD;
     font-weight: 50;
+    font-size: 20px;
 }
 /*CARDS*/
 .primary-color {
@@ -57,7 +59,7 @@
 }
 .title-h3 {
     margin-left: -20px;
-    font-size: 20px;
+    font-size: 30px;
 }
 .card-title {
     margin-bottom: 15px;
@@ -92,7 +94,7 @@
 }
 .why-us {
     list-style-type: none;
-    line-height: 20px;
+    line-height: 35px;
 }   
 
 @media (max-width: 1006px) {
