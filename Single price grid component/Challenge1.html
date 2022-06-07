@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio 1 front-end</title>
+        <style>
+            * {
+                margin: 0;
+                box-sizing: border-box;
+            }
+            .welcome {
+                padding: 20px;
+                margin-bottom: 110px;
+            }
+            .text-welcome {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                margin-top: 10%;
+            }
+            .title {
+                color: #47A99C;
+                font-size: 30px;
+            }
+            .welcome-infos {
+                margin-top: 10px;
+            }
+            .green-text {
+                color: #BFDF32 !important;
+                font-size: 20px;
+                font-weight: 700 !important;
+                margin-bottom: 10px;
+            }
+
+            .text {
+                color: #CDCDCD;
+                font-weight: 50;
+            }
+            /*CARDS*/
+            .primary-color {
+                color: white;
+            }
+            .secundary-color {
+                color: #BCC1C4;
+            }
+            .terciary-color {
+                color: #62D6D6;
+            }
+            .cards {
+                display: flex;
+            }
+            .card {
+                width: 50%;
+            }
+            .card-1 {
+                background-color: #2BB3B1;
+                height: 150%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .title-h3 {
+                margin-left: -20px;
+                font-size: 20px;
+            }
+            .card-title {
+                margin-bottom: 15px;
+            }
+            .PRICE {
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+            .formula {
+                font-size: 20px;
+            }
+            .access {
+                margin-bottom: 35px;
+            }
+            .sign {
+                text-decoration: none;
+                background-color: #BFDF32;
+                padding: 15px 80px;
+                border-radius: 10px;
+                box-shadow: 0 .5em 1em rgba(0,0,0,.1);
+            }
+            .card-2 {
+                background-color: #4ABEBD;
+                height: 150%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+            }
+            .card-2 .card-title {
+                margin-left: 5% !important;
+            }
+            .why-us {
+                list-style-type: none;
+                line-height: 20px;
+            }   
+
+            @media (max-width: 1006px) {
+                .welcome {
+                    padding: 20px;
+                    margin-bottom: 10px;
+                }
+                .text-welcome {
+                    margin-top: 5px;
+                }
+                .title {
+                    margin-bottom: 10px;
+                    font-size: 35px;
+                }
+                .green-text {
+                    margin-bottom: 25px;
+                }
+                .text {
+                    font-size: 25px;
+                }
+                .cards {
+                    display: block;
+                }
+                .card {
+                    width: 100%;
+                }
+                .card-1, .card-2 {
+                    height: 50vh;
+                    font-size: 25px;
+                }
+                .title-h3 {
+                    margin-left: -20px;
+                    font-size: 30px;
+                }
+                .card-title {
+                    margin-left: 15px;
+                    margin-bottom: 15px;
+                }
+                .PRICE {
+                    font-size: 30px;
+                    margin-left: 15px;
+                    margin-bottom: 10px;
+                }
+                .formula {
+                    font-size: 20px;
+                }
+                .access {
+                    margin-left: 10px;
+                    margin-bottom: 35px;
+                }
+                .sign {
+                    padding: 15px 80px;
+                }
+                .card-2 .card-title {
+                    margin-left: 9% !important;
+                }
+                .why-us {
+                    list-style-type: none;
+                    line-height: 35px;
+                }   
+            }
+        </style>
+    </head>
+    <body>
+        <section class="welcome">
+            <div class="text-welcome">
+                <h1 class="title">
+                    Join our community
+                </h1>
+                <div class="welcome-infos">
+                    <p class="text green-text">
+                        30-day, hassle-free money back guarantee </p>
+                   <p class="text">
+                       Gain access to our full library of tutorials along with expert code reviews. <br>
+                       Perfect for any developers who are serious about honing their skills.
+                   </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <div class="card-1">
+                    <div class="card-title">
+                        <h3 class="primary-color title-h3">Monthly Subscription</h3>
+                    </div>
+                    <div class="card-infos">
+                        <p class="PRICE primary-color"> $29 <span class="formula terciary-color">per month</span></p>
+                        <p class="access primary-color">Full access for less than $1 a day</p>
+                    </div>
+                    <div class="card-button">
+                        <a href="https://www.google.com/search?q=batman&oq=batman&aqs=edge..69i57j0i433i512l2j0i512l3j0i433i512j0i433j69i61.1037j0j1&sourceid=chrome&ie=UTF-8" target="_blank" class="sign primary-color">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-2">
+                    <div class="card-title">
+                        <h3 class="primary-color">Why us</h3>
+                    </div>
+                    <div class="card-infos">
+                        <ul class="why-us primary-color">
+                            <li>Tutorials by industry experts</li>
+                            <li>Peer & expert code review</li>
+                            <li>Coding exercises</li>
+                            <li>Access to our GitHub repos</li>
+                            <li>Community forum</li>
+                            <li>Flashcard decks</li>
+                            <li>New videos every week</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
