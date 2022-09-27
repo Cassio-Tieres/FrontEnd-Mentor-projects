@@ -1,0 +1,54 @@
+.banner {
+    padding: 0;
+}
+.info {
+    margin-left: 20%;
+}
+.img-urday {
+    margin-left: 5%;
+}
+.dem3 {
+    padding: 0;
+    margin-left:-60px;
+}
+.informacoes {
+    background-color: #000;
+    width: 30vw;
+    height: 50vh;
+}
+.informacoes h4, .informacoes p{
+    color: white !important;
+}
+.informacoes h4 {
+    font-size: 30px;
+    padding: 40px 5px 30px 30px;
+}
+.informacoes p {
+    font-size: 20px;
+    padding: 5px 30px;
+}
+
+@media (max-width: 665px) {
+    .banner img {
+        width: 129%;
+    }
+    .info {
+        margin-left: 0;
+    }
+    .img-urday {
+        margin-left: 0;
+    }
+    .img-urday img {
+        width: 130%;
+    }
+    .dem3 {
+        margin-left: 4%;
+    }
+    .dem3 img {
+        width: 123%;
+    }
+    .informacoes {
+        width: 123vw;
+        height: 50vh;
+    }
+}
